@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accordion</title>
+	<link rel="stylesheet" href="Assets/CSS/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	<div class="content">
+		<h1>Accordion</h1>
+		<div class="line-bar">
+		</div>
+		<p>Displays collapsible content panels for presenting information in a limited amount of space.</p>
+		<div class="content-nav">
+		
+			<p class="accordion_toggle "><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Section 1</a></p>
+			<div class="accordion_content">
+				<div class="accordion_text">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut orci nulla. Nam sed nisi ac neque bibendum fringilla vitae quis elit. Maecenas mattis viverra orci in rutrum. Vivamus non vehicula velit. Pellentesque commodo urna eget tellus gravida vestibulum. Nullam pellentesque, nisi id convallis lacinia, libero felis cursus est, ut porttitor felis odio vel quam. Aliquam dignissim volutpat malesuada.</p>					
+					
+				</div>
+			</div>
+			
+			<p class="accordion_toggle"><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Section 2</a></p>
+			<div class="accordion_content">
+				<div class="accordion_text">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut orci nulla. Nam sed nisi ac neque bibendum fringilla vitae quis elit. Maecenas mattis viverra orci in rutrum. Vivamus non vehicula velit. Pellentesque commodo urna eget tellus gravida vestibulum. Nullam pellentesque, nisi id convallis lacinia, libero felis cursus est, ut porttitor felis odio vel quam. Aliquam dignissim volutpat malesuada.</p>
+				</div>
+			</div>
+			
+			<p class="accordion_toggle"><a href="#" ><i class="fa fa-caret-right" aria-hidden="true"></i>Section 3</a></p>
+			<div class="accordion_content">
+				<div class="accordion_text">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut orci nulla. Nam sed nisi ac neque bibendum fringilla vitae quis elit. Maecenas mattis viverra orci in rutrum. Vivamus non vehicula velit. Pellentesque commodo urna eget tellus gravida vestibulum. Nullam pellentesque, nisi id convallis lacinia, libero felis cursus est, ut porttitor felis odio vel quam. Aliquam dignissim volutpat malesuada.</p>
+				</div>
+			</div>
+			
+			<p class="accordion_toggle"><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Section 4</a></p>
+			<div class="accordion_content">
+				<div class="accordion_text">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut orci nulla. Nam sed nisi ac neque bibendum fringilla vitae quis elit. Maecenas mattis viverra orci in rutrum. Vivamus non vehicula velit. Pellentesque commodo urna eget tellus gravida vestibulum. Nullam pellentesque, nisi id convallis lacinia, libero felis cursus est, ut porttitor felis odio vel quam. Aliquam dignissim volutpat malesuada.</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.accordion_content').hide();
+
+			$('.accordion_toggle a').click(function(e){
+				if($(this).parent().hasClass('current')) {
+					$(this).parent()
+						.removeClass('current')
+						.next('.accordion_content').slideUp();
+				} else {
+					$(document).find('.current')
+						.removeClass('current')
+						.next('.accordion_content').slideUp();
+					$(this).parent()
+						.addClass('current')
+						.next('.accordion_content').slideDown();
+				}
+			});
+		});
+	</script>
+
+</body>
+</html>
