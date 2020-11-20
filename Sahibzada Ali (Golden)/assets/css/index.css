@@ -1,0 +1,1021 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 85%;
+    border: 0px solid green;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 17px;
+}
+
+header {
+    position: relative;
+    z-index: 9;
+}
+
+.Menu {
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    width: 80%;
+    margin-top: 30px;
+}
+
+
+.Menu .Logo {
+    padding: 15px 0px 0px 25px;
+}
+
+.Menu .Logo p a {
+    color: #fed136;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 2px;
+    font-family: "WisdomScriptAJ";
+
+    border: 0px solid black;
+}
+.Menu-Text {
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.hamlist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamlist {
+    padding: 0px 40px 0px 0px;
+}
+
+.hamlist li {
+    padding: 15px 30px 0px 0px;
+}
+
+.hamlist li:last-child {
+    padding-right: 0;
+}
+.hamlist li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+	font-family: "Montserrat", sans-serif;
+    color: #fed136;
+}
+.Header-Bg {
+    background-image: url(../IMG/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    min-height: 80px;
+    position: relative;
+}
+
+.Center-Text {
+    text-align: center;
+
+    border: 0px solid yellow;
+    top: 288px;
+    left: 270px;
+    position: absolute;
+}
+.Welcome-Text {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "Droid Serif";
+	font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+.Welcome-Text-2 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-weight: 700;
+	padding-top: 25px;
+    letter-spacing: -1.88px;
+}
+.Center-Text-btn {
+    padding-top: 40px;
+}
+.Tell-More-Btn {
+    font-size: 20px;
+    border: 1px solid #fed136;
+    background-color: #fed136;
+    color: white;
+    width: 240px;
+    height: 65px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Service-Section {
+    margin: 80px 0px 80px 0px;
+    border: 0px solid red;
+}
+.Service-Text {
+    border: 0px solid yellow;
+    text-align: center;
+}
+ .Service-Heading {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 1000;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+.Service-SubHeading {
+    font-size: 17px;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-weight: 550;
+    font-style: italic;
+}
+
+.Service-Icon-Text {
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.Service-Box {
+    border: 0px solid red;
+    text-align: center;
+    width: 27.5%;
+    padding: 10px 0px 10px 0px;
+}
+.Service-Icon-Heading p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 75px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+.Service-Icon-Para p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 17px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    border: 0px solid blue;
+}
+
+.Bg-Grey {
+    background-color: #f7f7f7;
+}
+.Protfolio-MainText {
+    text-align: center;
+    border: 0px solid red;
+    padding: 80px 0px 0px 0px;
+}
+.Protfolio-MainHeading {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.Protfolio-MainSubHeading {
+    font-size: 17px;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-weight: 550;
+    font-style: italic;
+}
+.Protfolio-Img-Text {
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    text-align: center;
+}
+.Protfolio-Box {
+    border: 0px solid red;
+    text-align: center;
+    width: 25.5%;
+    background-color: white;
+}
+.Protfolio-Heading {
+    padding: 10px 0px 5px 0px;
+}
+.Protfolio-Heading p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.Protfolio-SubHeading {
+    padding: 5px 0px 15px 0px;
+}
+.Protfolio-SubHeading p {
+    font-size: 14px;
+    color: #737373;
+    font-family: "Droid Serif";
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Protfolio-6-Box {
+    border: 0px solid green;
+
+    padding: 20px 0px 85px 0px;
+}
+
+.About-Section {
+    margin: 80px 0px 80px 0px;
+    border: 0px solid red;
+}
+
+.AboutUs-Text {
+    border: 0px solid purple;
+    text-align: center;
+}
+.AboutUs-Heading {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+.AboutUs-SubHeading {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+.Text-Rounded-Img {
+
+    border: 0px solid gold;
+
+}
+.Rounded-Img-Text {
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid black;
+    margin-top: 95px;
+}
+.Rounded-Text {
+
+	border: 0px solid brown;
+    width: 40%;
+}
+.Rounded-Text-Heading {
+
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 25px;
+
+}
+.Rounded-Text-HeadingPara {
+
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    padding-top: 10px;
+}
+.Rounded-Img {
+    width: 20%;
+    border: 0px solid green;
+    text-align: center;
+    position: relative;
+
+}
+.Right-Text-swap {
+    order: 3;
+
+
+}
+.Right-Empty-swap {
+    order: 1;
+
+}
+.Line {
+    order: 2;
+}
+.Left-Text-swap {
+    order: 1;
+    text-align: right;
+
+}
+
+.Left-Empty-swap {
+    order: 2;
+
+
+}
+.Line::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100px;
+    display: inline-block;
+    background: #fafafa;
+    left: 50%;
+    top: 98%;
+    z-index: 91;
+}
+.Empty {
+	width: 40%;
+    border: 0px solid pink;
+}
+.Our-Team {
+
+    background-color: #f9f9f9;
+    padding: 80px 0px 80px 0px;
+}
+
+
+.Our-Team .Our-Team-Text {
+    text-align: center;
+    border: 0px solid red;
+
+
+}
+
+.Our-Team-Heading {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.Our-Team-SubHeading {
+    font-size: 17px;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-weight: 550;
+    font-style: italic;
+}
+
+.Our-Team-Members {
+
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.Member-SingleBox {
+
+    border: 0px solid red;
+    text-align: center;
+    width: 25.5%;
+    background-color: #f9f9f9;
+
+}
+
+.Member-Name p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 50px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+
+}
+.Social-Icon {
+    padding-top: 12px;
+}
+.Member-Profession p {
+    font-size: 14px;
+    color: #737373;
+    font-family: "Droid Serif";
+    font-weight: 400;
+}
+
+.OurTeam-BottomText {
+
+    border: 0px solid green;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+
+
+}
+.OurTeam-BottomText p {
+
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+	}
+
+.Marketplaces {
+
+    padding: 80px 0px 80px 0px;
+}
+
+.Marketplaces-Imgs {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.M-Img {
+
+    width: 24%;
+    border: 0px solid green
+}
+
+.ContactUs-Bg {
+    background-image: url(../IMG/Bg-Fotter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 675px;
+    margin: 80px 0px 0px 0px;
+
+
+}
+
+ .Contact-Us-Text {
+
+
+    border: 0px solid red;
+    padding-top: 80px;
+    text-align: center;
+
+
+
+}
+.Contact-Us-Heading {
+
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+
+}
+
+
+.Contact-Us-SubHeading {
+
+    font-size: 16px;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 10px;
+
+}
+.Form {
+
+    padding-top: 40px;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: center;
+
+}
+.Form-Left-side {
+    border: 0px solid red;
+    padding-right: 15px;
+
+}
+.Form-Left {
+    width: 455px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 0px solid #cccccc;
+    margin-top: 20px;
+
+
+}
+.Form-Left-side input {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #bbbbbb;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    padding: 15px 0px 0px 20px;
+}
+.Form-Right-side {
+
+    border: 0px solid red;
+    padding-left: 15px;
+}
+.Form-Right {
+
+    width: 455px;
+    height: 190px;
+    background-color: #ffffff;
+    border: 0px solid #cccccc;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.Form-Right-side input {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #bbbbbb;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    padding: 15px 0px 0px 20px;
+}
+.Form-Btn {
+
+    margin-top: 30px;
+    text-align: center;
+}
+.SendMe-Btn {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    width: 240px;
+    height: 65px;
+    border-radius: 3px;
+    background-color: #fed136;
+    border-style: none;
+}
+
+
+.Footer-Line-Logo {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    max-width: 500px;
+    margin: 0 auto;
+
+
+}
+
+
+.Footer-Line {
+    border: 0px solid red;
+    text-align: center;
+}
+
+
+.Footer-Line p {
+
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #555555;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.Footer-Logo {
+
+    display: flex;
+    justify-content: center;
+    border: 0px solid red;
+}
+.Footer-Logo a {
+    padding: 5px;
+}
+
+
+
+/*Medaia Query*/
+
+
+
+@media(max-width: 1199px) {
+
+    .Header-Bg {
+
+        height: 530px;
+
+
+    }
+
+    .Center-Text .Welcome-Text-2 {
+        padding-top: 6px;
+    }
+
+    .Center-Text {
+
+        top: 215px;
+        left: 75px;
+    }
+	.hamIcon{
+	display:none;
+}
+
+}
+
+
+
+@media(max-width: 1024px) {
+
+
+    .Header-Bg {
+        height: 400px;
+    }
+
+    .Center-Text .Welcome-Text-2 {
+
+        font-size: 50px;
+
+        padding-top: 25px;
+        letter-spacing: 0px;
+    }
+
+    .Center-Text .Welcome-Text {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .Center-Text .Tell-More-Btn {
+        font-size: 15px;
+
+        width: 180px;
+        height: 60px;
+        border-radius: 4px;
+
+    }
+
+    .Center-Text .Center-Text-btn {
+        padding-top: 20px;
+    }
+
+    .Center-Text {
+        top: 160px;
+        left: 110px;
+    }
+
+    .Center-Text .Welcome-Text-2 {
+        font-size: 45px;
+        padding-top: 10px;
+        letter-spacing: 0px;
+    }
+
+    .Menu .Logo {
+        padding: 0px 0px 0px 0px;
+    }
+
+
+    .Menu .Menu-Text {
+
+        padding-right: 0px;
+    }
+
+
+    .Menu .Menu-List {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .Menu .Menu-List li {
+        padding: 0px 15px 0px 0px;
+    }
+
+
+
+    .Text-Rounded-Img .Rounded-Img-Text .Empty {
+        display: none;
+    }
+
+
+
+    .Text-Rounded-Img .Rounded-Img-Text .Line::after {
+        display: none;
+        z-index: 0;
+    }
+
+    .ContactUs-Bg .Form {
+
+        display: inline-block;
+    }
+
+    .ContactUs-Bg .Form .Form-Left-side {
+
+        padding-right: 0px;
+    }
+
+    .ContactUs-Bg .Form .Form-Right-side {
+        padding-left: 0px;
+    }
+
+    .ContactUs-Bg .Form .Form-Right-side .Form-Right {
+
+        height: 140px;
+    }
+
+    .ContactUs-Bg .Form-Btn .SendMe-Btn {
+        font-size: 16px;
+
+        width: 210px;
+        height: 50px;
+
+    }
+
+    .ContactUs-Bg .Form-Btn {
+
+        text-align: left;
+    }
+
+    .Menu {
+
+        width: 90%;
+
+    }
+
+
+
+}
+
+
+@media(max-width: 767px) {
+
+
+    .Menu .HamBugerIcon {
+
+        display: block;
+    }
+
+    .Menu .Menu-Text .Menu-List{
+
+        display: none;
+    }
+
+    .Menu .Menu-Text .active {
+
+        display: block;
+
+      
+
+       
+    }
+
+    .Header-Bg {
+        height: 250px;
+    }
+
+    .Center-Text {
+        top: 100px;
+        left: 60px;
+    }
+
+    .Center-Text .Welcome-Text {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .Center-Text .Welcome-Text-2 {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+    .Center-Text .Tell-More-Btn {
+        font-size: 14px;
+        width: 140px;
+        height: 35px;
+        border-radius: 4px;
+    }
+
+    .Menu {
+
+        margin-top: 5px;
+    }
+
+    .Service-Section .Service-Text .Service-Heading {
+        font-size: 30px;
+        letter-spacing: 0px
+    }
+
+    .Service-Section .Service-Text .Service-SubHeading {
+        font-size: 14px;
+    }
+
+
+    .Service-Section .Service-Icon-Text {
+        display: block;
+    }
+
+    .Service-Section .Service-Icon-Text .Service-Box {
+        width: 100%
+    }
+
+    .Bg-Grey .Protfolio-MainText .Protfolio-MainHeading {
+        font-size: 30px;
+        letter-spacing: 0px
+    }
+
+    .Bg-Grey .Protfolio-MainText .Protfolio-MainSubHeading {
+        font-size: 14px;
+    }
+
+    .Bg-Grey .Protfolio-Img-Text {
+        display: inline;
+    }
+
+    .Bg-Grey .Protfolio-Img-Text .Protfolio-Box {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .About-Section .AboutUs-Text .AboutUs-Heading {
+        font-size: 30px;
+        letter-spacing: 0px
+    }
+
+
+    .About-Section .AboutUs-Text .AboutUs-SubHeading {
+        font-size: 14px;
+    }
+
+    .About-Section .Text-Rounded-Img .Rounded-Img-Text {
+        display: inline;
+    }
+
+    .About-Section .Text-Rounded-Img .Rounded-Img-Text .Rounded-Text {
+
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+
+    .Text-Rounded-Img .Rounded-Img-Text .Rounded-Img {
+        padding-top: 50px;
+        width: 100%
+    }
+
+
+    .Our-Team .Our-Team-Text .Our-Team-Heading {
+        font-size: 30px;
+        letter-spacing: 0px
+    }
+
+
+    .Our-Team .Our-Team-Text .Our-Team-SubHeading {
+        font-size: 14px;
+    }
+
+
+    .Our-Team .Our-Team-Members {
+        display: inline;
+    }
+
+    .Our-Team .Our-Team-Members .Member-SingleBox {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .Marketplaces {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .Marketplaces .Marketplaces-Imgs {
+        display: inline;
+        text-align: center;
+    }
+
+
+
+    .Marketplaces .Marketplaces-Imgs .M-Img {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .ContactUs-Bg .Contact-Us-Text .Contact-Us-Heading {
+        font-size: 30px;
+        letter-spacing: 0px
+    }
+
+    .ContactUs-Bg .Contact-Us-Text .Contact-Us-SubHeading {
+        font-size: 14px;
+    }
+
+    .ContactUs-Bg .Form .Form-Left-side .Form-Left {
+        width: 400px;
+        height: 40px;
+    }
+
+    .ContactUs-Bg .Form .Form-Right-side .Form-Right {
+        width: 400px;
+        height: 120px;
+    }
+
+    .ContactUs-Bg .Form-Btn .SendMe-Btn {
+        font-size: 16px;
+        width: 180px;
+        height: 50px;
+    }
+
+
+}
+
+
+@media(max-width: 480px) {
+
+    .Header-Bg {
+        height: 180px;
+    }
+
+    .ContactUs-Bg .Form .Form-Left-side .Form-Left {
+        width: 250px;
+        height: 40px;
+    }
+
+    .ContactUs-Bg .Form .Form-Right-side .Form-Right {
+        width: 250px;
+        height: 120px;
+    }
+
+    .ContactUs-Bg .Form .Form-Right-side input {
+        font-size: 10px;
+    }
+
+    .ContactUs-Bg .Form .Form-Left-side input {
+        font-size: 10px;
+    }
+
+    .ContactUs-Bg .Form-Btn .SendMe-Btn {
+        font-size: 15px;
+        width: 170px;
+        height: 45px;
+    }
+
+    footer .Footer-Line-Logo {
+        display: inline;
+    }
+
+    footer .Footer-Line-Logo .Footer-Logo {
+        padding-top: 15px;
+    }
+
+    .Center-Text {
+        top: 75px;
+        left: 60px;
+    }
+
+    .Center-Text .Welcome-Text {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .Center-Text .Welcome-Text-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .Center-Text .Center-Text-btn {
+        padding-top: 14px;
+    }
+
+    .Center-Text .Tell-More-Btn {
+        font-size: 12px;
+        width: 115px;
+        height: 30px;
+    }
+	.hamlist {
+    /* padding: 0px 40px 0px 0px; */
+    display: block;
+	background-color: white;
+    padding: 0px;
+   
+}

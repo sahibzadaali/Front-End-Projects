@@ -1,0 +1,699 @@
+* {
+         padding: 0px;
+         margin: 0px;
+         box-sizing: border-box;
+         font-family: 'Poppins', sans-serif;
+     }
+
+     img {
+         max-width: 100%;
+     }
+
+     a {
+         text-decoration: none;
+         color: #000;
+     }
+
+     ul,
+     li {
+         list-style-type: none;
+     }	
+.container{
+	max-width: 80%;
+	margin:0 auto;
+}
+
+.banner{
+	padding-bottom: 20px;
+}
+
+.worksmart{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.worksmart-logo{
+	max-width: 30%;
+}
+
+.worksmart-contact{
+	max-width: 80%;
+}
+
+.worksmart-part{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.work-contact{
+	max-width: 136px;
+}
+
+.work-contact p a{
+	border:1px solid black;
+	padding:10px 18px 12px 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	
+}
+
+.hamburger{
+	max-width: 30%;
+	margin-left: 15px;
+}
+
+.hamburger span{
+	display: block;
+	height:2px;
+	width:20px;
+	background-color: black;
+	position: relative;
+}
+
+.hamburger span::before{
+	content:"";
+	position: absolute;
+	background-color: black;
+	height: 2px;
+	width: 20px;
+	top:10px;
+	left: 8%;
+}
+
+.hamburger span::after{
+	content:"";
+	position: absolute;
+	background-color: black;
+	height: 2px;
+	width: 20px;
+	top:20px;
+	left: 8%;
+}
+.design{
+	background-color: #fafafa;
+
+}
+
+.main-design{
+	display: flex;
+}
+
+.digital-market{
+	width:48%;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.marketphoto{
+	width: 48%;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.para-text p{
+	font-size: 43px;
+	color: #000000;
+	font-family: "DejaVu Sans";
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.text p{
+	font-size: 24px;
+	color: gray;
+	font-family: "DejaVu Sans";
+	font-weight: 400;
+	margin-top: 22px;
+}
+
+.button p a{
+	text-decoration: none;
+	background-color: 4c77e0;
+	padding:16px 17px 16px 17px;
+	font-size: 16px;
+	font-family: "DejaVu Sans";
+	color:white;
+	border-radius: 7px;
+}
+
+.button p{
+	margin-top: 50px;
+}
+
+/*.marketphoto-img{
+	height:343px;
+}*/
+
+
+.video-text{
+	margin-top: 90px;
+}
+
+.video-text p{
+	font-size: 24px;
+	color: #000000;
+	font-family: "DejaVu Sans";
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.video-text span p{
+	color:gray;
+	text-align: center;
+	font-size: 20px;
+	font-family: "DejaVu Sans";
+	line-height: 1.5;
+}
+
+/*.videos .video-img-set{
+	width:698px;
+	height:404px;
+}*/
+
+ .videos{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+
+.videos img{
+	width:60%;
+}
+
+.best-service{
+	background-color: #fafafa;
+}
+
+.best-service .service-text h5{
+	text-align: center;
+	font-size: 45px;
+	font-family: "DejaVu Sans";
+
+}
+
+.best-service .service-text p{
+	text-align: center;
+	color:gray;
+	margin-top: 5px;
+}
+
+.text-box{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.text-box-image{
+	max-width: 32%;
+}
+
+.service-text{
+	margin-top: 20px;
+}
+
+.bussiness-partner{
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.bussiness-partner-photo{
+	width: 48%;
+}
+
+.bussiness-partner-text{
+	width: 48%;
+	margin-left: 40px;
+}
+
+.bussiness-partner-text .text1 p{
+	color:red;
+	margin-bottom: 10px;
+}
+
+.bussiness-partner-text .text1 h1{
+	line-height: 1.2;
+	font-size: 40px;
+}
+
+.bussiness-partner-text .text1 span p{
+	color:gray;
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+.list-2{
+	margin-top: 25px;
+}
+
+.fafa-check{
+	color: pink;
+}
+
+.list-2 ul li{
+	margin-bottom: 15px;
+	font-size: 17px;
+	color: #000000;
+}
+
+.button-1{
+	margin-top: 50px;
+}
+
+.button-1 p a{
+	border:1px solid #4c77e0;
+	padding: 15px 20px 15px 20px;
+	border-radius: 4px;
+	color:#4c77e0;
+	font-size: 15px;
+}
+
+
+.our-clients{
+	margin-top: 90px;
+}
+
+.main-clients{
+	display: flex;
+	justify-content: space-between;
+}
+
+.client-text{
+	max-width: 30%;
+}
+
+.client-text h1{
+	font-size: 40px;
+}
+
+.client-text-2{
+	max-width: 70%;
+}
+
+.client-text-2 p{
+	line-height: 1.6;
+	color:gray;
+}
+
+.img-icon{
+	display: flex;
+	justify-content: space-between;
+}
+
+.Set-img-icon{
+	max-width: 25%;
+	margin-top: 60px;
+}
+
+.img-icon-margin-bottom{
+	margin-bottom: 92px;
+}
+
+.our-latest-news{
+	background-color:#fafafa;
+}
+
+.latest-news-text h1{
+	text-align: center;
+	font-size: 50px;
+	padding-top: 60px;
+}
+
+.latest-news-text p{
+	text-align: center;
+	color:gray;
+	margin-top: 5px;
+}
+
+.our-latest-news-photo{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.latest-news-photos{
+	width: 30%;
+	background-color: white;
+	margin-bottom: 70px;
+}
+
+.latest-news-photos h1{
+	margin-top: 20px;
+}
+
+.latest-news-photos p{
+	margin-top: 20px;
+	line-height: 1.5;
+	color: gray;
+}
+
+.latest-news-btn p a{
+	color:red;
+	border:1px solid red;
+	padding:7px 10px 7px 10px;
+	border-radius: 7px;
+}
+
+.contact-section{
+	 background-image: url('../IMG/g2.jpg');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     padding:70px 0 70px 0;
+}
+
+.offered{
+	display: flex;
+	justify-content: space-between;
+}
+
+.offered-text{
+	max-width: 60%;
+}
+
+.offered-text h1{
+	color: white;
+	font-size: 32px;
+}
+
+.offered-text p{
+	color: white;
+	margin-top: 20px;
+}
+
+.offered-btn{
+	max-width: 40%;
+
+}
+
+.offered-btn h5{
+	margin-top: 25px;
+	margin-right: 15px;
+}
+
+.offered-btn h5 a{
+	color: black;
+	text-align: center;
+	border: 1px solid white;
+	background-color: white;
+	padding: 12px 23px 17px 23px;
+	border-radius: 5px;
+	font-size: 19px;
+	
+}
+
+
+.footer-divide{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.contact-us{
+	width:48%;
+}
+
+.subscribe{
+	width: 48%;
+}
+
+.subscribe p{
+	margin-top:20px;
+	line-height: 1.5;
+	color:gray;
+}
+
+.email{
+	border:1px solid black;
+	border-radius: 8px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.email p{
+	padding:0px 0px 10px 10px;
+}
+
+.email span a{
+	padding:0px 0px 10px 10px;
+}
+
+.Address-bar{
+	margin-top: 20px;
+	color:gray;
+	line-height: 1.5;
+}
+
+.fa-map-marker{
+	color:gray;
+}
+
+.contact-bar{
+	margin-top: 15px;
+}
+
+.contact-bar p {
+	color:gray;
+	margin-bottom: 15px;
+}
+
+.list ul{
+	display: flex;
+}
+
+.list ul li{
+	margin-right: 15px;
+
+}
+
+.list ul li a{
+	color: red;
+	background-color: #fff6f4;
+	border-radius: 60px;
+	padding: 10px;
+}
+
+.line{
+	border-bottom: 1px solid gray;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.Home-section-divide{
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyright{
+	max-width: 50%;
+}
+
+.copyright p{
+	color: gray;
+}
+
+.about{
+	max-width: 50%;
+}
+
+.about-list ul{
+	display: flex;
+}
+
+.about-list ul li{
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.about-list ul li:last-child{
+	margin-right: auto;
+}
+
+.Home-section{
+	margin-bottom: 50px;
+}
+
+@media(max-width:1024px){
+
+}
+
+@media(max-width:767px){
+
+.bussiness-partner{
+	display: block;
+}
+.bussiness-partner-photo {
+    width: auto;
+}
+.text1{
+	text-align: center;
+}
+.bussiness-partner{
+	text-align: center;
+}
+.marketphoto img{
+	max-width: 387px;
+}
+.bussiness-partner-text {
+     width: 100%; 
+    margin-left: 40px;
+}
+}
+
+
+
+@media(max-width:480px){
+
+.main-design {
+   display:block;
+}
+
+.button{
+	text-align: center;
+}
+
+.marketphoto {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.marketphoto img{
+	max-width: 200%;
+}
+
+.para-text p {
+	font-size: 35px;
+	margin-left: 82px;
+}
+
+.text-box{
+	display: block;
+}
+
+.text-box-image {
+    max-width: 1000;
+}
+
+.text-box-image img{
+	padding-bottom: 12px;
+}
+
+.bussiness-partner {
+	display: block;
+}
+
+.bussiness-partner-photo {
+    width: auto;
+}
+
+.bussiness-partner-text .text1 p{
+	text-align: center;
+    font-size: 19px;
+    padding-top: 12px;
+}
+
+.main-clients{
+	display: block;
+}
+
+.our-latest-news-photo{
+	display: block;
+}
+
+.latest-news-photos{
+	width: 335px;
+}
+
+.footer-divide{
+	display: block;
+}
+
+.contact-us h1{
+	text-align: center;
+}
+
+.contact-us{
+	width: auto;
+}
+
+.subscribe{
+	text-align: center;
+	width: auto;
+}
+
+.list ul{
+	margin-top: 30px;
+    /* text-align: center; */
+    margin-left: 66px;
+}
+
+.Home-section-divide{
+	display: block;
+}
+
+.copyright {
+    max-width: 100%;
+}
+
+.about{
+	margin-top: 10px;
+	margin-left: 58px;
+}
+
+.offered{
+	display: block;
+}
+
+.offered-btn h5 a{
+	font-size: 15px;
+}
+
+.offered-text {
+    text-align: center;
+    max-width: 100%;
+}
+
+.offered-btn {
+    margin-left: 103px;
+    margin-top: 27px;
+}
+
+.client-text{
+	text-align: center;
+}
+
+.worksmart{
+	display: block;
+	text-align: -webkit-center;
+}
+.client-text {
+     max-width: 100%; 
+}
+.hamburger{
+	padding-top: 0px;
+}
+
+.client-text-2 p {
+	width: 396px;
+	margin-top: 10px;
+    text-align: center;
+}
+.video-text p {
+    font-size: 15px;
+    }
+
+ .text p{
+ 	width: 388px;
+    text-align: center;
+ }
+
+ .worksmart-logo img{
+ 	margin-left:0px;
+ 	margin-bottom:10px;
+ }
+ 
+}

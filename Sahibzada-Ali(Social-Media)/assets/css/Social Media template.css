@@ -1,0 +1,427 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #f5f7f8;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-style: none;
+
+  color: #000;
+}
+
+.shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+i {
+  margin-right: 15px;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.H-Style {
+  z-index: 9;
+  top: 0;
+  background-color: #4d636f;
+  padding: 10px 10px;
+}
+.Logo-Text {
+  padding: 13px 24px;
+  font-size: 15px;
+  background-color: #3a4b53;
+  color: white;
+}
+
+.Header-Logo .Logo-Text:hover {
+  color: #000;
+  background-color: #ccc;
+  text-decoration: none;
+}
+
+.Header-Icons .Grey-Hover {
+  color: #fff;
+  background-color: #4d636f;
+  padding: 11px 24px;
+  font-size: 16px;
+}
+
+.Header-Icons .Hover {
+  color: #fff;
+  background-color: #4d636f;
+  padding: 11px 24px;
+  font-size: 16px;
+}
+
+.Grey-Hover {
+  position: relative;
+}
+.Grey-Hover:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.Header-Icons .Hover:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.Last-Icon .L-Hover {
+  border: 0px solid greenyellow;
+  padding: 13px 24px;
+}
+
+.Last-Icon:hover .L-Hover {
+  background-color: #fff;
+  position: relative;
+}
+
+.Green-Badge {
+  color: #fff;
+  background-color: #4caf50;
+  font-size: 12px;
+  border-radius: 50%;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: absolute;
+}
+
+.dropdown-hover:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  cursor: auto;
+  color: #000;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  position: absolute;
+  margin-top: 10px;
+  display: none;
+  min-width: 160px;
+  z-index: 9;
+  text-decoration-style: none;
+}
+
+.content:hover {
+  background-color: #cccccc;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.content {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+  text-decoration-line: none;
+}
+.Last-Icon {
+  position: relative;
+}
+
+.Header-Hambuger {
+  margin-top: -20px;
+  font-size: large;
+  color: white;
+  position: relative;
+}
+.H-Icon:hover {
+  color: #000;
+}
+
+.Rounded-Img {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
+.Header-Hambuger {
+  display: none;
+  color: #000;
+}
+.Header-Hambuger a {
+  color: #000;
+
+}
+
+.NavMobile{
+  display: none;
+}
+.NavMobile a{
+  display: none;
+  text-decoration-line: none;
+  color: white;
+}
+.NavMobile a:hover{
+  color: black;
+  background-color:#ccc ;
+}
+.NavMobile{
+  text-align: center;
+}
+
+.M-Top {
+  margin-top: 80px;
+}
+
+.Img-Circle {
+  height: 106px;
+  width: 106px;
+  border-radius: 50%;
+}
+.Line {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.LeftColorBtns {
+  color: #fff;
+  background-color: #7d97a5;
+}
+
+.ProfileIconColor {
+  color: #607d8b;
+}
+
+.LeftColorBtns:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+#BtnClickNone,
+#BtnClickNone1,
+#BtnClickNone2 {
+  display: none;
+}
+
+.Social-Media-Heading {
+  font-family: "Segoe UI", Arial, sans-serif;
+  opacity: 0.6;
+
+  font-weight: 400;
+}
+
+.Li-size {
+  padding: 1px 9px 1px 9px;
+  font-size: 11px;
+}
+
+.Tags-color1 {
+  color: #fff;
+  background-color: #303e45;
+}
+
+.Tags-color2 {
+  color: #fff;
+  background-color: #3a4b53;
+}
+
+.Tags-color4 {
+  color: #fff;
+  background-color: #607d8b;
+}
+
+.Tags-color5 {
+  color: #ffffff;
+  background-color: #7d97a5;
+}
+
+.Tags-color6 {
+  color: #000;
+  background-color: #9eb1bb;
+}
+
+.Tags-color3 {
+  color: #fff;
+  background-color: #57707d;
+}
+
+.Tags-color7 {
+  color: #000;
+  background-color: #becbd2;
+}
+
+.Tags-color8 {
+  color: #000;
+  background-color: #dfe5e8;
+}
+
+.Tags-color9 {
+  color: #000;
+  background-color: #f5f7f8;
+}
+
+.Alert-Box {
+  color: #000;
+  background-color: #dfe5e8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Alert-Box .alert button {
+  color: #000;
+  background-color: #becbd2;
+}
+
+.Alert-Box .alert button span {
+  background-color: #becbd2;
+  color: #000;
+}
+.CloseIcon:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.Social-Media-Form {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.Img-Circle-2 {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.Post-Btn {
+  color: #fff;
+  background-color: #607d8b;
+  border-radius: 0px;
+}
+
+.Post-Btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+.Icon-Right-Text {
+  font-size: 20px;
+}
+.Time-Text {
+  opacity: 0.6;
+}
+
+.Post-Btn1 {
+  color: #fff;
+  background-color: #607d8b;
+  border-radius: 0px;
+}
+
+.Green-Btn {
+  color: #fff;
+  background-color: #4caf50;
+  border-radius: 0px;
+  opacity: 0.6;
+}
+
+.Red-Btn {
+  color: #fff;
+  background-color: #f44336;
+  border-radius: 0px;
+  opacity: 0.6;
+}
+
+.Green-Btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+.Red-Btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+.F-Request {
+  width: 50%;
+}
+
+.Post-Btn1:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+.Info-Button {
+  color: #000;
+  background-color: #dfe5e8;
+  border-radius: 0px;
+}
+
+.Info-Button:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+.Footer-1 {
+  color: #fff;
+  background-color: #435761;
+  font-size: 18px;
+}
+
+.Footer-2,
+.f-text-white {
+  color: #fff;
+  background-color: #303e45;
+}
+.Footer-2 a:hover {
+  color: #fff;
+}
+
+.Bug {
+  margin-top: 20px;
+}
+
+.Bug i {
+  font-size: xx-large;
+}
+
+@media (max-width: 767px) {
+  .Alert-Box {
+    display: none;
+  }
+  .Header-Hambuger {
+    display: block;
+  }
+
+  .NavMobile {
+    display: block;
+    margin-top: 42px;
+    background-color: #4d636f;
+  }
+  .Last-Icon img {
+    display: none;
+  }
+
+  .Header-Icons {
+    display: none;
+  }
+
+  .Social-Media-Form {
+    margin-top: 20px;
+  }
+  .H-Icon i:hover {
+    color: #000;
+  }
+
+  .H-Icon i {
+    color: white;
+    display: block;
+  }
+  .Logo-Text {
+    padding: 11px 18px;
+    font-size: 14px;}
+}

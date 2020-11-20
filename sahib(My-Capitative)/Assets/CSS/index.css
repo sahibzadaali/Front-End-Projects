@@ -1,0 +1,323 @@
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #000;
+  text-decoration-line: none; 
+}
+
+ul,li {
+  list-style-type: none;
+}
+
+.header-section{
+	background-color: #124f8f;
+	padding-top: 10px;
+	padding-bottom: -3px;
+	position: fixed;
+  	width: 100%;
+}
+.header-part{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:white;
+}
+.header-text{
+	padding-right: 30px;
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-bottom: 13px;
+    background-color: #49c0b6;
+    border-radius: 10px;
+    color: white;
+}
+.header-text a{
+	color: white;
+	text-decoration-line: none;
+}
+.set-logo{
+	width: 217px;
+    height: 45px;
+    margin-top: 7px;
+}
+
+/*(Doing the right thing, at the right time)*/
+.right-thing{
+	background-color: #0c3866;
+	padding-bottom: 80px;
+	padding-top: 74px;
+}
+.right-thing .h6{
+	color: white;
+	font-size: 45px;
+	margin-top: 60px;
+
+}
+.right-thing .h6 span{
+	font-weight: bold;
+}
+.right-thing .right-thing-text{
+	color: white;
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 1.7;
+}
+.right-thing .read{
+	color: white;
+	background-color: #49c0b6;
+	padding: 12px 30px 12px 30px;
+	border-radius: 10px;
+}
+.right-thing .read a{
+	color: white;
+	text-decoration-line: none;
+}
+.right-thing .services{
+	border: 2px solid white;
+	padding: 12px 30px 12px 30px;
+	border-radius: 10px;
+}
+.right-thing .services a{
+	color: white;
+	text-decoration-line: none;
+}
+.right-thing .lists{
+	margin-top: 50px;
+}
+.set-home-img{
+	margin-top: 40px;
+}
+/*About-Us*/
+.about-us{
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+.about-us .h1{
+	margin-bottom: 30px;
+	margin-top: 20px;
+	/*font-family: sans-serif;*/
+}
+.about-us .h4{
+	margin-bottom: 30px;
+	/*font-family: sans-serif;*/
+}
+.about-us .text{
+	font-size: 18px;
+	/*font-family:sans-serif;*/
+	color:gray;
+}
+.abt-image{
+	padding-bottom: 10px;
+}
+/*Meet Our Solution For You*/
+.solution{
+	background-color: #f8f9fa;
+	padding-bottom: 60px;
+}
+.line{
+	border-bottom: 2px solid black;
+	width: 66px;
+	margin-left: 525px;
+	padding-top: 10px;
+}
+.solution .h4{
+	font-size: 35px;
+	color:#45435b;
+	padding-top: 70px;
+}
+.solution .text{
+	margin-top: 25px;
+	margin-bottom: 45px;
+	line-height: 1.6;
+	color: #9a9999;
+}
+.card-img-top .fa{
+	margin-top: 40px;
+	font-size: 30px;
+	color:#4cc1b7;
+}
+.solution-cards .card-text{
+	font-size: 18px;
+	color:gray;
+	padding-bottom: 20px;
+}
+.solutions{
+	margin-top: 30px;
+}
+.solution-cards .card{
+	margin-bottom: 38px;
+}
+/*What they said about us*/
+.what-they{
+	margin-bottom:100px;
+}
+.what-they .h4{
+	font-size: 35px;
+	color:#45435b;
+	padding-top: 70px;
+}
+.what-they .text{
+	margin-top: 25px;
+	margin-bottom: 45px;
+	line-height: 1.6;
+	color: #9a9999;
+	font-size: 20px;
+}
+.what-they-card{
+	display: flex;
+	justify-content: space-between;
+}
+.what-they-card .first .fa{
+	font-size: 20px;
+	background-color: #124f8f;
+	padding: 7px 15px 7px 13px;
+	margin-left: 40px;
+	border-radius: 50px;
+	color: white;
+	margin-top: 183px;
+}
+.what-they-card .third .fa{
+	font-size: 20px;
+	background-color: #e5e5e5;
+	padding: 7px 15px 7px 13px;
+	margin-right: 40px;
+	border-radius: 50px;
+	color: white;
+	margin-top: 183px;
+}
+.second .card img{
+	width: 80px;
+	margin-left: 133px;
+    margin-top: 40px;
+}
+.stars{
+	margin-right: 141px;
+    margin-top: -23px;
+    width: 107px;
+}
+.second .card-body .card-text{
+	color: gray;
+	font-size: 17px;
+	line-height: 1.6;
+}
+.card-bottom .texts{
+	font-weight: bold;
+	font-size: 18px;
+}
+.card-bottom .texts span{
+	font-weight: normal;
+	color: gray;
+}
+.card-bottom{
+	margin-bottom: 20px;
+}
+/*Some for our company*/
+.real-facts{
+	background-image: url('../IMG/back.jpg');
+	background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 2.5);
+    padding-top: 90px;
+    padding-bottom: 40px;
+
+}
+.real-facts .h3{
+	color: white;
+	font-size: 35px;
+}
+.real-facts .number{
+	color: white;
+	font-weight: bold;
+	font-size: 70px;
+	padding-right: 10px;
+	/*margin-top: 60px;*/
+}
+.real-facts .fact-text{
+	color: white;
+	font-size: 20px;
+}
+.real-fact-text{
+	color: white;
+}
+.icon {
+	padding-top: 7px;
+	font-size: 40px;
+}
+/*Company News*/
+.company-news{
+	margin-bottom: 80px;
+}
+.company-news .h4{
+	font-size: 35px;
+	color:#45435b;
+	padding-top: 70px;
+}
+.company-news .text{
+	margin-top: 25px;
+	margin-bottom: 45px;
+	line-height: 1.6;
+	color: #9a9999;
+	font-size: 20px;
+} 
+.line-1{
+	border-bottom: 1px solid lightgray;
+	width: 113%;
+    margin-left: -21px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.company-news-cards .h5{
+	font-size: 25px;
+}
+.company-news-cards .company-news-cards-footer{
+	color: gray;
+}
+.company-news-cards .company-news-cards-footer .fa{
+	padding-left: 2px;
+}
+.company-news-cards-footer .left-icon{
+	margin-left: -14px;
+}
+.company-news-cards-footer  .right-icon{
+	padding-left: 44px;
+}
+/*Footer Part*/
+.footer-part{
+	background-color: #131313;
+}
+/*W3 Layouts*/
+.layouts{
+	padding: 8px;
+	background-color: #0f0f0f;
+}
+.layouts .icons .fa{
+	color: darkgray;
+	padding-top: 10px;
+}
+.layouts .layout-text{
+	color: darkgray;
+	padding-top:10px;
+	font-size: 17px;
+}
+.slide{
+  background-color:blue;
+}
+.carousel{
+  margin-top: 50px;
+}
+.carousel-inner{
+  height: 100px;
+}
+.carousel-caption{
+  color: black;
+  top: 50%;
+}
+.carousel-caption h3{
+	color: black;
+}
