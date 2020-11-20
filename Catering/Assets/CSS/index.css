@@ -1,0 +1,254 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+        
+}
+img{
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul,li {
+    list-style-type: none;
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.catering{
+    width:50%;
+}
+.catering-list{
+    width: 50%;
+}
+.catering{
+    margin-left: 20px;
+    letter-spacing: 4px;
+}
+.catering-list ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.catering-list ul li{
+    margin-right: 30px;
+    letter-spacing: 4px;
+}
+.menu-bar{
+    margin:20px 0px 20px 0px;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.About-Catering-Part{
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.about-catering{
+    display: flex;
+    justify-content: space-between;
+}
+.plate-photo{
+    width: 45%;
+}
+.plate-photo-text{
+    width: 45%;
+}
+.photo-text p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+.tradition-since-1889 p{
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 6px;
+    font-size: 20px;
+}
+.traditional-text p{
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.traditional-text span{
+    background-color: #f1f1f1;
+    padding:0px 4px 0px 4px;
+}
+.traditional-text-2 p{
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+    color:gray;
+}
+.line-bar{
+    border-bottom: 1px solid gray;
+    margin-bottom: 90px;
+}
+.menu-part{
+    display: flex;
+    justify-content: space-between;
+}
+.our-menu{
+    width: 48%;
+}
+.plate1{
+    width:45%;
+}
+.menu-heading h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 34px;
+}
+.bread-basket{
+    margin-top: 40px;
+}
+.bread-basket p{
+    letter-spacing: 6px;
+    font-size: 20px;
+}
+.bread-basket-text{
+    margin-top: 20px;
+    color: gray;
+}
+.menu{
+    margin-bottom: 90px;
+}
+.contact-text{
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+.paragraph{
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.catering-service{
+    margin-top: 20px;
+    color:#719fb8;
+}
+.contact-us-phone{
+    margin-top: 20px;
+}
+.contact-form p{
+    color:gray;
+    margin-top: 30px;
+}
+.line-bar{
+    border-radius: 1px solid black;
+    margin:20px 0px 20px 0px;
+}
+.btn{
+    border:1px solid white;
+    display: inline-block;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.hamIcon{
+    display: none;
+}
+.hamlist li a{
+    display: flex;
+}
+ .hamlist {
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+ .hamlist li{
+    margin-right: 10px;
+    letter-spacing: 4px;
+}
+
+/*Responsive*/
+@media(max-width: 1024px){
+.about-catering{
+    display: block;
+}
+.plate-photo {
+    width: 100%; 
+}
+.plate-photo-text{
+    width: 100%;
+}
+.menu-part{
+    display: block;
+}
+.our-menu{
+    width: 100%;
+}
+.plate1{
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-text{
+    text-align: center;
+}
+
+}
+@media(max-width: 767px){
+.about-catering{
+    display: block;
+}
+.plate-photo {
+    width: 100%; 
+}
+.plate-photo-text{
+    width: 100%;
+}
+.menu-part{
+    display: block;
+}
+.our-menu{
+    width: 100%;
+}
+.plate1{
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-text{
+    text-align: center;
+}
+}
+
+@media(max-width: 480px){
+.about-catering{
+    display: block;
+}
+.plate-photo {
+    width: 100%; 
+}
+.plate-photo-text{
+    width: 100%;
+}
+.menu-part{
+    display: block;
+}
+.our-menu{
+    width: 100%;
+}
+.plate1{
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-text{
+    text-align: center;
+}
+.hamIcon{
+    display: block;
+    padding-right: 22px;
+}
+.hamlist {
+    display: none;
+    margin-top: 52px;
+    margin-left: -186px;
+}
+.catering {
+    /*margin-left: 20px;
+    letter-spacing: 4px;*/
+    margin-top: 13px;
+}
